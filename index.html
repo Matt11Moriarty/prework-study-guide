@@ -4,27 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Prework Study Guide</title>
   </head>
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img 
+        class="header_image"
         src="./assets/bowtie-cat.png" 
         alt="Profile image of cat wearing a bow tie."
-        height="100"
-        width="300"
         />
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
-        <h3>HTML notes:</h3>
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
           <li>&lt;p> is for paragraph and &lt;a> is for anchor</li>
-          <li>Element Types
+          <li>Element Types:
             <ul>            
               <li>Text elements</li>
               <li>Image elements</li>
@@ -40,27 +39,77 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Three ways to style a webpage:
+            <ol>
+              <li>Inline CSS</li>
+              <li>Internal CSS style sheet</li>
+              <li>External style sheet</li>
+            </ol>
+          </li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>A "." before a selector indicates that it is a class selector</li>
+          <li>CSS Rule Diagram:</li>
+          <img
+          src="./assets/diagram_of_css_rule.png"
+          alt="Diagram of a CSS Rule"
+          height="100"
+          width="200"
+            />
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>Enter your Git notes here</li>
+          <li>Git Flow
+            <ol>
+              <li>Create a branch
+                <ul>
+                  <li>git checkout -b {branch name}</li>
+                </ul>
+              </li>
+              <li>Make changes</li>
+              <li>Stage changes
+                <ul>
+                  <li>git add -A</li>
+                </ul>
+              </li>
+              <li>Save the staged changes as commits
+                <ul>
+                  <li>git commit -m "{commit message}"</li>
+                </ul>
+              </li>
+              <li>Pull the source code
+                <ul>
+                  <li>git pull origin main</li>
+                </ul>
+              </li>
+              <li>Push all of the commits to your branch
+                <ul>
+                  <li>git push origin {branch name}</li>
+                </ul>
+              </li>
+              <li>Create a PR in Github</li>
+              <li>Address review comments</li>
+              <li>Merge PR</li>
+              <li>Delete your branch</li>
+            </ol>
+          </li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>console.log prints to the console</li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <a href="https://www.linkedin.com/feed/">Author: Matthew Moriarty</a>
+      <h2>I can code :)</h2>
+      <h3 class="author"><a>Author:</a><a  href="https://www.linkedin.com/in/matthew-moriarty-10230770/"> Matthew Moriarty</a></a></h2>
     </footer>
   </body>
 </html>
