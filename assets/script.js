@@ -1,4 +1,4 @@
-var topic = "HTML";
+/*var topic = "HTML";
 
 if (topic === 'HTML') {
   console.log("Let's study HTML!");
@@ -11,5 +11,11 @@ if (topic === 'HTML') {
 } else {
   console.log('Please try again!');
 }
+*/
 
-console.log(`Let's study ${topic}!`);
+//topics array
+var topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+//log each item of the array
+for (i=0; i<topics.length; i++) {
+    console.log(topics[i]);
+}
