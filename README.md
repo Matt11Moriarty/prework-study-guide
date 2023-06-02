@@ -34,6 +34,8 @@ This Prework Study Guide can be used by anyone with internet access, and is reco
 Each section contains important info on HTML, CSS, Git, and Js. 
 If you are unsure which topic to study first, open the dev tools in your browser - the site will suggest a topic for you to begin with. 
 
+https://matt11moriarty.github.io/prework-study-guide/
+
 ## Credits
 
 NA
