@@ -2,12 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 This project was created as a way to present the things I have learned in the Prework, and present them in such a way that other students can view it.
 In creating this study guide, I learned about the three main languages of web development:
 1. HTML
@@ -16,15 +10,8 @@ In creating this study guide, I learned about the three main languages of web de
 * as well as some Git!
 I've gained a foundation and feel much more confident entering this bootcamp armed with my wonderful new study guide.
 
-## Table of Contents (Optional)
-assets
->bowtie-cat.png
->diagram_of_css_rule.png
->script.js
->style.css
-index.html
-LICENSE
-README.md
+## Table of Contents
+
 - [Prework Study Guide Webpage](#prework-study-guide-webpage)
   - [Description](#description)
   - [Table of Contents (Optional)](#table-of-contents-optional)
