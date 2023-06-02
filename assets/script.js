@@ -14,13 +14,12 @@ if (topic === 'HTML') {
 }
 */
 
-//topics array
+//topics array -> random topic selection
 let topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
 let randTopic = topics[Math.floor(Math.random() * topics.length)]
 
 
-
-//log each item of the array
+//log each item of the topics array
 function listAllTopics () {
     console.log('Here are the topics we learned through Prework:')
     for (i=0; i<topics.length; i++) {
@@ -28,9 +27,11 @@ function listAllTopics () {
     }
 }
 
+//print the randomly selected study topic
 function pickTopic (randTopic) {
     console.log(`Let's study ${randTopic}`)
 }
 
+//call functions
 listAllTopics();
 pickTopic(randTopic);
